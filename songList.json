@@ -1,72 +1,268 @@
 [
-    {
-        "id": 1,
-        "anime": "0-saiji Start Dash Monogatari Season 2 - Ending 1",
-        "name": "\"Beyond the Trajectory\" by Chata",
-        "video": "https://eudist.animemusicquiz.com/5u2mhk.webm",
-        "mp3": null
-    },
-    {
-        "id": 2,
-        "anime": "1-punkan dake Furete mo Ii yo... Share House no Himitsu Rule. - Ending 1",
-        "name": "\"Session Sadame Night\" by Dai Takanashi",
-        "video": "https://eudist.animemusicquiz.com/f23gq2.webm",
-        "mp3": "https://eudist.animemusicquiz.com/ne5vos.mp3"
-    },
-    {
-        "id": 3,
-        "anime": "A-Rank Party wo Ridatsu shita Ore wa, Moto Oshiego-tachi to Meikyuu Shinbu wo Mezasu. - Ending 1",
-        "name": "\"Treasure Chest\" by Yuki Tanaka",
-        "video": "https://eudist.animemusicquiz.com/agsvoz.webm",
-        "mp3": "https://eudist.animemusicquiz.com/i3vp9q.mp3"
-    },
-    {
-        "id": 4,
-        "anime": "Akuyaku Reijou Tensei Ojisan - Ending 1",
-        "name": "\"Matsuken Samba II\" by Kazuhiko Inoue, M・A・O",
-        "video": "https://eudist.animemusicquiz.com/e8q47f.webm",
-        "mp3": "https://eudist.animemusicquiz.com/dje0hr.mp3"
-    },
-    {
-        "id": 5,
-        "anime": "Amagami-san Chi no Enmusubi - Ending 2",
-        "name": "\"Kamisama no Iu Toori!\" by ≠ME",
-        "video": "https://eudist.animemusicquiz.com/p4etz1.webm",
-        "mp3": "https://eudist.animemusicquiz.com/wz8z3p.mp3"
-    },
-    {
-        "id": 6,
-        "anime": "Ameku Takao no Suiri Karte - Ending 1",
-        "name": "\"will be fine\" by Gospellers feat. Anly",
-        "video": "https://eudist.animemusicquiz.com/0spf2m.webm",
-        "mp3": "https://eudist.animemusicquiz.com/iagxs7.mp3"
-    },
-    {
-        "id": 7,
-        "anime": "Ao no Exorcist: Yosuga-hen - Ending 1",
-        "name": "\"Overlap\" by Shiyui",
-        "video": "https://eudist.animemusicquiz.com/3z1d8i.webm",
-        "mp3": "https://eudist.animemusicquiz.com/162vdv.mp3"
-    },
-    {
-        "id": 8,
-        "anime": "Ao no Hako - Ending 2",
-        "name": "\"Contrast\" by TOMOO",
-        "video": "https://eudist.animemusicquiz.com/qmcqk3.webm",
-        "mp3": "https://eudist.animemusicquiz.com/l2sgqo.mp3"
-    },
-    {
-        "id": 9,
-        "anime": "Ao no Miburo - Ending 2",
-        "name": "\"Fragment\" by osage",
-        "video": "https://eudist.animemusicquiz.com/8b8iva.webm",
-        "mp3": "https://eudist.animemusicquiz.com/0yt4lm.mp3"
-    },
-    {
-        "id": 10,
-        "anime": "Arafou Otoko no Isekai Tsuuhan - Ending 1",
-        "name": "\"Aicraft\" by Kiminone",
-        "video": "https://eudist.animemusicquiz.com/ohlrpc.webm",
-        "mp3": "https://eudist.animemusicquiz.com/74jbjn.mp3"
-    }
+  {
+    "id": 1,
+    "anime": "Mahou Shoujo Madoka★Magica - Opening 1",
+    "name": "\"Connect\" by ClariS",
+    "video": "https://eudist.animemusicquiz.com/ao0ex5.webm",
+    "mp3": null
+  },
+  {
+    "id": 2,
+    "anime": "Mahou Shoujo Madoka★Magica - Ending 1",
+    "name": "\"Mata Ashita\" by Aoi Yuki",
+    "video": "https://eudist.animemusicquiz.com/ztnhrm.webm",
+    "mp3": null
+  },
+  {
+    "id": 3,
+    "anime": "Mahou Shoujo Madoka★Magica - Ending 2",
+    "name": "\"Magia\" by Kalafina",
+    "video": "https://eudist.animemusicquiz.com/wumhq6.webm",
+    "mp3": null
+  },
+  {
+    "id": 4,
+    "anime": "Mahou Shoujo Madoka★Magica - Ending 3",
+    "name": "\"and I'm home\" by Eri Kitamura & Ai Nonaka",
+    "video": "https://eudist.animemusicquiz.com/as3ucm.webm",
+    "mp3": null
+  },
+  {
+    "id": 5,
+    "anime": "Mahou Shoujo Madoka★Magica - Insert Song",
+    "name": "\"Pugna cum maga\" by Fion",
+    "video": "https://eudist.animemusicquiz.com/jlwqwofvxz5wyl79.webm",
+    "mp3": null
+  },
+  {
+    "id": 6,
+    "anime": "Mahou Shoujo Madoka★Magica - Insert Song",
+    "name": "\"Surgam identidem\" by Yuri Kasahara & Tokyo Konsei Gasshou-dan",
+    "video": "https://eudist.animemusicquiz.com/440mae694tev5kjz.webm",
+    "mp3": null
+  },
+  {
+    "id": 7,
+    "anime": "Mahou Shoujo Madoka★Magica - Insert Song",
+    "name": "\"Nux Walpurgis\" by Yuri Kasahara & Tokyo Konsei Gasshou-dan",
+    "video": "https://eudist.animemusicquiz.com/hq13dm8d3vjeahsd.webm",
+    "mp3": null
+  },
+  {
+    "id": 8,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Zenpen: Hajimari no Monogatari - Opening 1",
+    "name": "\"Luminous\" by ClariS",
+    "video": "https://eudist.animemusicquiz.com/4lckko.webm",
+    "mp3": null
+  },
+  {
+    "id": 9,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Zenpen: Hajimari no Monogatari - Ending 1",
+    "name": "\"Magia [quattro]\" by Kalafina",
+    "video": "https://eudist.animemusicquiz.com/l2hjpr.webm",
+    "mp3": null
+  },
+  {
+    "id": 10,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Zenpen: Hajimari no Monogatari - Insert Song",
+    "name": "\"Mirai\" by Kalafina",
+    "video": "https://eudist.animemusicquiz.com/74gkkx.webm",
+    "mp3": null
+  },
+  {
+    "id": 11,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Zenpen: Hajimari no Monogatari - Insert Song",
+    "name": "\"Sis puella magica!\" by Eri Itou",
+    "video": "https://eudist.animemusicquiz.com/uz0m7l.webm",
+    "mp3": null
+  },
+  {
+    "id": 12,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Zenpen: Hajimari no Monogatari - Insert Song",
+    "name": "\"wo ist die Käse?\" by Suginami Jidou Gasshou-dan",
+    "video": "https://eudist.animemusicquiz.com/nrqq1n.webm",
+    "mp3": null
+  },
+  {
+    "id": 13,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Zenpen: Hajimari no Monogatari - Insert Song",
+    "name": "\"witch world #2\" by Yuri Kasahara",
+    "video": "https://eudist.animemusicquiz.com/wn44wh.webm",
+    "mp3": null
+  },
+  {
+    "id": 14,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Kouhen: Eien no Monogatari - Ending 1",
+    "name": "\"Hikari Furu\" by Kalafina",
+    "video": "https://eudist.animemusicquiz.com/dfu2ae.webm",
+    "mp3": null
+  },
+  {
+    "id": 15,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Kouhen: Eien no Monogatari - Insert Song",
+    "name": "\"Connect -Orchestra ver.-\" by ClariS",
+    "video": "https://eudist.animemusicquiz.com/je2kvo.webm",
+    "mp3": null
+  },
+  {
+    "id": 16,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Kouhen: Eien no Monogatari - Insert Song",
+    "name": "\"she is a witch\" by Yuri Kasahara & Yuriko Kaida",
+    "video": "https://eudist.animemusicquiz.com/3xr8ip.webm",
+    "mp3": null
+  },
+  {
+    "id": 17,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Kouhen: Eien no Monogatari - Insert Song",
+    "name": "\"I miss you\" by Hanae Tomaru",
+    "video": "https://eudist.animemusicquiz.com/laeh5k.webm",
+    "mp3": null
+  },
+  {
+    "id": 18,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Kouhen: Eien no Monogatari - Insert Song",
+    "name": "\"her wings\" by Tokyo Konsei Gasshou-dan",
+    "video": "https://eudist.animemusicquiz.com/n13qw05kf1b7uo0a.webm",
+    "mp3": null
+  },
+  {
+    "id": 19,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Kouhen: Eien no Monogatari - Insert Song",
+    "name": "\"rebirth\" by Tokyo Konsei Gasshou-dan",
+    "video": "https://eudist.animemusicquiz.com/yplvogs9crsa5ake.webm",
+    "mp3": null
+  },
+  {
+    "id": 20,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Shinpen: Hangyaku no Monogatari - Opening 1",
+    "name": "\"Colorful\" by ClariS",
+    "video": "https://eudist.animemusicquiz.com/qn2w0a.webm",
+    "mp3": null
+  },
+  {
+    "id": 21,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Shinpen: Hangyaku no Monogatari - Ending 1",
+    "name": "\"Kimi no Gin no Niwa\" by Kalafina",
+    "video": "https://eudist.animemusicquiz.com/0oa7lp.webm",
+    "mp3": null
+  },
+  {
+    "id": 22,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Shinpen: Hangyaku no Monogatari - Insert Song",
+    "name": "\"misterioso\" by Kalafina",
+    "video": "https://eudist.animemusicquiz.com/bqchmw.webm",
+    "mp3": null
+  },
+  {
+    "id": 23,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Shinpen: Hangyaku no Monogatari - Insert Song",
+    "name": "\"Noi!\" by Suginami Jidou Gasshou-dan",
+    "video": "https://eudist.animemusicquiz.com/i5f9sa.webm",
+    "mp3": null
+  },
+  {
+    "id": 24,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Shinpen: Hangyaku no Monogatari - Insert Song",
+    "name": "\"Mada dame yo\" by ASUKA",
+    "video": "https://eudist.animemusicquiz.com/6mqtd5.webm",
+    "mp3": null
+  },
+  {
+    "id": 25,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Shinpen: Hangyaku no Monogatari - Insert Song",
+    "name": "\"I was waiting for this moment\" by Yuriko Kaida",
+    "video": "https://eudist.animemusicquiz.com/oiosrs.webm",
+    "mp3": null
+  },
+  {
+    "id": 26,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Shinpen: Hangyaku no Monogatari - Insert Song",
+    "name": "\"absolute configuration\" by Hanae Tomaru",
+    "video": "https://eudist.animemusicquiz.com/ai7t0xhb44f1q4w0.webm",
+    "mp3": null
+  },
+  {
+    "id": 27,
+    "anime": "Gekijouban Mahou Shoujo Madoka★Magica Shinpen: Hangyaku no Monogatari - Insert Song",
+    "name": "\"dream world\" by Hanae Tomaru",
+    "video": "https://eudist.animemusicquiz.com/vwrhbhcspq26gau5.webm",
+    "mp3": null
+  },
+  {
+    "id": 28,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden - Opening 2",
+    "name": "\"Gomakashi\" by TrySail",
+    "video": "https://eudist.animemusicquiz.com/rw1n5i.webm",
+    "mp3": null
+  },
+  {
+    "id": 29,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden - Ending 1",
+    "name": "\"Alethea\" by ClariS",
+    "video": "https://eudist.animemusicquiz.com/cu86yj.webm",
+    "mp3": null
+  },
+  {
+    "id": 30,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden - Ending 2",
+    "name": "\"Nigredo\" by Shito (from ReReGRAPHICS)",
+    "video": "https://eudist.animemusicquiz.com/r6u4j3.webm",
+    "mp3": null
+  },
+  {
+    "id": 31,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden - Insert Song",
+    "name": "\"Kokuhou High End\" by Machico",
+    "video": "https://eudist.animemusicquiz.com/rx4ku4.webm",
+    "mp3": null
+  },
+  {
+    "id": 32,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden - Insert Song",
+    "name": "\"Uwasa Kazoe Uta\" by Emiri Katou",
+    "video": "https://eudist.animemusicquiz.com/gxzlzg.webm",
+    "mp3": null
+  },
+  {
+    "id": 33,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden - Insert Song",
+    "name": "\"Point 10-bai\" by 10 Point Girls",
+    "video": "https://eudist.animemusicquiz.com/32y4b0.webm",
+    "mp3": null
+  },
+  {
+    "id": 34,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden 2nd Season - Kakusei Zenya - Opening 1",
+    "name": "\"Careless\" by ClariS",
+    "video": "https://eudist.animemusicquiz.com/flj66s.webm",
+    "mp3": null
+  },
+  {
+    "id": 35,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden 2nd Season - Kakusei Zenya - Ending 1",
+    "name": "\"Lapis\" by TrySail",
+    "video": "https://eudist.animemusicquiz.com/2chpkp.webm",
+    "mp3": null
+  },
+  {
+    "id": 36,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden 2nd Season - Kakusei Zenya - Insert Song",
+    "name": "\"Credens justitiam\" by Eri Itou & Yuriko Kaida",
+    "video": "https://eudist.animemusicquiz.com/mo8tpo.webm",
+    "mp3": null
+  },
+  {
+    "id": 37,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden Final Season - Asaki Yume no Akatsuki - Ending 2",
+    "name": "\"Orgel\" by ClariS × TrySail",
+    "video": "https://eudist.animemusicquiz.com/8c9zza.webm",
+    "mp3": null
+  },
+  {
+    "id": 38,
+    "anime": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden Final Season - Asaki Yume no Akatsuki - Insert Song",
+    "name": "\"La Confrontación Final\" by Shito",
+    "video": "https://eudist.animemusicquiz.com/jvufu8.webm",
+    "mp3": null
+  }
 ]
