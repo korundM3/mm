@@ -28,6 +28,10 @@ let totalBattles = 0;
 let video = true;
 let region = "eu";
 
+let startWithLeft = true;
+let autoPlayTimeout = null;
+let stopAutoPlay = false;
+
 fetch('songList.json')
     .then(response => response.json())
     .then(data => {
@@ -61,6 +65,10 @@ function configureLoadButton() {
 }
 
 function showDuel(id1, id2) {
+
+    if (autoPlayTimeout) {
+    clearTimeout(autoPlayTimeout);
+}
     const duelContainer = document.getElementById('duel');
     duelContainer.innerHTML = "";
 
@@ -124,11 +132,66 @@ function showDuel(id1, id2) {
     }
 
     const percent = Math.floor(sortedNo * 100 / totalBattles);
-    progressBar(`Battle no. ${battleNo}`, percent);
+progressBar(`Battle no. ${battleNo}`, percent);
 
+autoPlayTimeout = setTimeout(autoPlayBattle, 150);
+
+}
+function autoPlayBattle() {
+
+    stopAutoPlay = false;
+    
+    const medias = [...document.querySelectorAll("#duel audio, #duel video")];
+
+    if (medias.length < 2) return;
+
+    // 前回のイベントを消す
+    medias.forEach(media => {
+        media.pause();
+        media.currentTime = 0;
+        media.onended = null;
+    });
+
+    const left = medias[0];
+    const right = medias[1];
+
+   function playLoop(current, next) {
+
+    if (stopAutoPlay) return;
+       
+    current.pause();
+    current.currentTime = 0;
+
+    next.pause();
+    next.currentTime = 0;
+
+    current.play().catch(() => {});
+
+        current.onended = () => {
+
+            if (stopAutoPlay) return;
+            
+            next.currentTime = 0;
+
+            playLoop(next, current);
+
+        };
+    }
+
+    if (startWithLeft) {
+        playLoop(left, right);
+    } else {
+        playLoop(right, left);
+    }
 }
 
 function pick(sortType) {
+
+    if (sortType === "left") {
+        startWithLeft = true;
+    } else {
+        startWithLeft = false;
+    }
 
     sortedIndexListPrev = sortedIndexList.slice(0);
     recordDataListPrev = recordDataList.slice(0);
@@ -176,6 +239,14 @@ function pick(sortType) {
         pointer = 0;
     }
 
+    stopAutoPlay = true;
+    
+    document.querySelectorAll("#duel audio, #duel video").forEach(media => {
+    media.pause();
+    media.currentTime = 0;
+    media.onended = null;
+});
+    
     if (leftIndex < 0) {
         progressBar(`Completed! (${battleNo} battles)`, 100);
         autoSave();
@@ -255,6 +326,8 @@ function progressBar(indicator, percentage) {
 
 function undo() {
 
+    stopAutoPlay = true;
+    
     if (battleNo === 1) {
         return;
     }
@@ -382,7 +455,12 @@ function selectOption(type, element) {
         region = "nae"
     }
 
-    showDuel(sortedIndexList[leftIndex][leftInnerIndex], sortedIndexList[rightIndex][rightInnerIndex]);
+    if (leftIndex >= 0 && sortedIndexList.length > 0) {
+    showDuel(
+        sortedIndexList[leftIndex][leftInnerIndex],
+        sortedIndexList[rightIndex][rightInnerIndex]
+    );
+}
 
 }
 
@@ -447,6 +525,10 @@ function autoSave() {
     localStorage.setItem(`${config.localStoragePrefix}-pointerPrev`, JSON.stringify(pointerPrev));
 
     localStorage.setItem(`${config.localStoragePrefix}-totalBattles`, JSON.stringify(totalBattles));
+    localStorage.setItem(
+    `${config.localStoragePrefix}-startWithLeft`,
+    JSON.stringify(startWithLeft)
+);
 }
 
 function loadProgress() {
@@ -501,6 +583,21 @@ function loadProgress() {
 
         document.querySelector('.progress-container').removeAttribute("hidden");
 
-        showDuel(sortedIndexList[leftIndex][leftInnerIndex], sortedIndexList[rightIndex][rightInnerIndex]);
+const savedStart = JSON.parse(
+    localStorage.getItem(`${config.localStoragePrefix}-startWithLeft`)
+);
+
+if (savedStart !== null) {
+    startWithLeft = savedStart;
+}
+
+showDuel(
+    sortedIndexList[leftIndex][leftInnerIndex],
+    sortedIndexList[rightIndex][rightInnerIndex]
+);
+        
+if (savedStart !== null) {
+    startWithLeft = savedStart;
+}
     }
 }
